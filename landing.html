@@ -1,0 +1,325 @@
+<!--A Design by W3layouts
+  Author: W3layout
+  Author URL: http://w3layouts.com
+  License: Creative Commons Attribution 3.0 Unported
+  License URL: http://creativecommons.org/licenses/by/3.0/
+  -->
+  <!DOCTYPE html>
+  <html lang="zxx">
+  
+  <head>
+    <title>Lushof Freerange Chickens</title>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Mulching Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+        Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+      addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+      }, false);
+  
+      function hideURLbar() {
+        window.scrollTo(0, 1);
+      }
+    </script>
+    <!--//meta tags ends here-->
+    <!--booststrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <!--//booststrap end-->
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!--stylesheets-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+    <link href="css/loginstyle.css" rel='stylesheet' type='text/css' media="all">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/slideshow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!--//stylesheets-->
+    <!-- Web-Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Mada:200,300,400,500,600,700,900&amp;subset=arabic" rel="stylesheet">
+    <!-- //Web-Fonts -->
+    <!--FlexSlider-->
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+      $(window).load(function () {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function (slider) {
+            $('body').removeClass('loading');
+          }
+        });
+      });
+    </script>
+    <script>
+  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+  </script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.opacity = 0.8 ,rgb(38,50,56);
+      document.body.style.backgroundColor = rgb(38,50,56);
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.body.style.opacity = 1;
+      
+    }
+    </script>
+  
+  <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHead");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
+    <!--End-slider-script-->
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
+      <script>
+        // Get the modal
+        var modal = document.getElementById('id02');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        
+        </script>
+       <script>
+        function switchVisible(){
+          if(document.getElementById("id01").style.display == "none")
+          {
+            document.getElementById("id01").style.display = 'block';
+            document.getElementById("id02").style.display = 'none';
+          }
+          else{
+            document.getElementById("id01").style.display = 'none';
+            document.getElementById("id02").style.display = 'block';
+          }
+        }
+       </script> 
+  </head>
+  
+  <body  id="main">
+    <div class="main-top" id="home">       
+      <!-- header -->
+      <div class="headder-top">
+                  
+        <!-- nav -->
+        <nav >
+            
+            <label for="drop" class="toggle">Menu</label>
+            
+            <input type="checkbox" id="drop">
+            <span style="position:fixed ;font-size:18px;cursor:pointer;color: #e88b3c;" onclick="openNav()">&#9776;</span>
+            <ul class="menu mt-2">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+                  <!-- First Tier Drop Down -->
+                  <label for="drop-2" class="toggle toogle-2">About Us <span class="fa fa-angle-down" aria-hidden="true"></span>
+                  </label>
+                  <a href="about.html">About Us <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                  <input type="checkbox" id="drop-2">
+                  <ul>
+                    <li><a href="team.html" class="drop-text">Meet The Team</a></li>
+                  </ul>
+                </li>
+              <li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+                  <!-- First Tier Drop Down -->
+                  <label for="drop-2" class="toggle toogle-2">Products <span class="fa fa-angle-down" aria-hidden="true"></span>
+                  </label>
+                  <a href="service.html">Products <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                  <input type="checkbox" id="drop-2">
+                  <ul>
+                    <li><a href="factory.html" class="drop-text">Factory Store</a></li>
+                    <li><a href="products.html" class="drop-text">Product Line</a></li>
+                    <li><a href="order.html" class="drop-text">Enquire an Order</a></li>
+                  </ul>
+                </li>
+              <li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle toogle-2">News <span class="fa fa-angle-down" aria-hidden="true"></span>
+                </label>
+                <a href="#">News <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                <input type="checkbox" id="drop-2">
+                <ul>
+                  <li><a href="gallery.html" class="drop-text">Gallery</a></li>
+                  <li><a href="events.html" class="drop-text">Blog</a></li>
+                </ul>
+              </li>
+              <li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+                  <!-- First Tier Drop Down -->
+                  <label for="drop-2" class="toggle toogle-2">Contact Us <span class="fa fa-angle-down" aria-hidden="true"></span>
+                  </label>
+                  <a href="#">Contact Us <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                  <input type="checkbox" id="drop-2">
+                  <ul>
+                    <li><a href="contact.html" class="drop-text">Enquiries</a></li>
+                    <li><a href="single.html" class="drop-text">Leave a Comment</a></li>
+                    
+                  </ul>
+                </li>
+            </ul>
+          </nav>
+        
+        <div id="logo">
+          <a href="index.html">
+            <img src="images/icon2.jpg" style="width: 200px; height:150px; position: relative;" alt="news image">
+          </a>
+        </div>
+  
+        <!-- //nav -->
+      </div>
+      
+      <!-- //header -->
+      <!-- banner -->
+      <div class="container">
+        <button class="shopbtn" align="right" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Shop Now</button>
+        <button class = "shopbtn" align = "left" type="submit" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+      </div>
+      
+    
+  </div>
+ 
+  <div id="id01" class="modal">
+    <form class="modal-content animate"  action="php/login.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="images\img_avatar3.png" alt="Avatar" class="avatar">
+      </div>
+      <form class="modal-content animate">
+        <div class="container">
+              <i class="fa fa-user icon"></i>
+              <label for="username"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="username" id="username" required >
+              <i class="fa fa-key icon"></i>
+              <label for="password"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="password" id="password" required>
+               
+                <button type="submit" name ="login_user" id="login_user"><a href="">Login</a></button>
+              
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+          
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+      
+    </form>
+    
+  </div>
+  <div id="id02" class="modal">
+    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" method="post" action="php/signup.php">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="name"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="name" required>
+
+        <label for="email"><b>Surname</b></label>
+        <input type="text" placeholder="Enter Surname" name="surname" required>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+  
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+  
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+  
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+        <div class="clearfix">
+            <button type="submit" class="signupbtn" name="reg_user"><a href="">Sign Up</a></button>
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2" >Cancel</button>
+          
+        </div>
+      </div>
+    </form>
+  </div>
+    <!-- footer -->
+    <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
+      <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+  
+        <div class="footer-w3layouts-head text-center">
+          <img align="middle" src="images/icon2.jpg" style="width:200px;height:100px" alt=" ">
+          <h2><a href="index.html">Lushof Freerange Chickens</a></h2>
+        </div>
+        <div class="social-icons mt-lg-5 mt-md-4 mt-3 text-center">
+          <ul>
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-rss"></span></a></li>
+            <li><a href="#"><span class="fa fa-envelope"></span></a></li>
+            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+          </ul>
+        </div>
+        <div class="bottem-wthree-footer text-center pt-md-4 pt-3">
+          <p>
+            © 2019 Lushof Freerange Chickens. All Rights Reserved | Design by <a href="http://www.W3Layouts.com"
+              target="_blank">Dewaldt van Rensburg</a>
+          </p>
+        </div>
+        <!-- move icon -->
+        <div class="text-center">
+          <a href="#home" class="move-top text-center mt-3"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </div>
+        <!--//move icon -->
+      </div>
+    </footer>
+    <!--//footer -->
+  </body>
+  
+  </html>
